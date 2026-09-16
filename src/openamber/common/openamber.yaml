@@ -11,7 +11,7 @@ external_components:
   - source:
       type: git
       url: github://${external_source}@${git_ref}
-      path: src/openamber
+      path: src
 
 openamber_component:
   id: amber_ctrl
