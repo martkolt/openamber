@@ -9,8 +9,9 @@ packages:
 
 external_components:
   - source:
-      type: local
-      path: openamber
+      type: git
+      url: github://{external_source}@{ref}
+      path: src/openamber
 
 openamber_component:
   id: amber_ctrl
