@@ -7,7 +7,7 @@ packages:
   maintenance_proxy_switches: !include maintenance_proxy_switches.yaml
   maintenance_proxy_numbers: !include maintenance_proxy_numbers.yaml
 
-openamber_component:
+openamber:
   id: amber_ctrl
   update_interval: 5s
 
