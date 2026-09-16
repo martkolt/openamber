@@ -7,12 +7,6 @@ packages:
   maintenance_proxy_switches: !include maintenance_proxy_switches.yaml
   maintenance_proxy_numbers: !include maintenance_proxy_numbers.yaml
 
-external_components:
-  - source:
-      type: git
-      url: github://${external_source}@${git_ref}
-      path: src
-
 openamber_component:
   id: amber_ctrl
   update_interval: 5s
