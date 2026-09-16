@@ -19,15 +19,15 @@ esphome:
   project:
     name: ${device_project_name}
   includes:
-    - openamber/controllers/constants.h
-    - openamber/controllers/pump_controller.h
-    - openamber/controllers/compressor_controller.h
-    - openamber/controllers/base_controller.h
-    - openamber/controllers/dhw_controller.h
-    - openamber/controllers/heat_cool_controller.h
-    - openamber/controllers/routine_controller.h
-    - openamber/controllers/deaeration_routine.h
-    - openamber/controllers/openamber_component.h
+    - controllers/constants.h
+    - controllers/pump_controller.h
+    - controllers/compressor_controller.h
+    - controllers/base_controller.h
+    - controllers/dhw_controller.h
+    - controllers/heat_cool_controller.h
+    - controllers/routine_controller.h
+    - controllers/deaeration_routine.h
+    - controllers/openamber_component.h
   on_boot:
     - priority: 600
       then:
