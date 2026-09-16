@@ -25,15 +25,15 @@ esphome:
   project:
     name: ${device_project_name}
   includes:
-    - openamber/controllers/constants.h
-    - openamber/controllers/pump_controller.h
-    - openamber/controllers/compressor_controller.h
-    - openamber/controllers/base_controller.h
-    - openamber/controllers/dhw_controller.h
-    - openamber/controllers/heat_cool_controller.h
-    - openamber/controllers/routine_controller.h
-    - openamber/controllers/deaeration_routine.h
-    - openamber/controllers/openamber_component.h
+    - github://${external_source}/src/openamber/controllers/constants.h@${git_ref}
+    - github://${external_source}/src/openamber/controllers/pump_controller.h@${git_ref}
+    - github://${external_source}/src/openamber/controllers/compressor_controller.h@${git_ref}
+    - github://${external_source}/src/openamber/controllers/base_controller.h@${git_ref}
+    - github://${external_source}/src/openamber/controllers/dhw_controller.h@${git_ref}
+    - github://${external_source}/src/openamber/controllers/heat_cool_controller.h@${git_ref}
+    - github://${external_source}/src/openamber/controllers/routine_controller.h@${git_ref}
+    - github://${external_source}/src/openamber/controllers/deaeration_routine.h@${git_ref}
+    - github://${external_source}/src/openamber/controllers/openamber_component.h@${git_ref}
   on_boot:
     - priority: 600
       then:
