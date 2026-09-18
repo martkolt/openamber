@@ -4,25 +4,25 @@
 
 image:
   - platform: file
-    file: ui/images/water_circuit.png
+    file: images/water_circuit.png
     id: img_water_circuit
     type: RGB565
     transparency: alpha_channel
     resize: 350x420
   - platform: file
-    file: ui/images/icon.png
+    file: images/icon.png
     id: openamber_icon
     type: RGB565
     resize: 57x70
     transparency: alpha_channel
   - platform: file
-    file: ui/images/dhw_tank.png
+    file: images/dhw_tank.png
     id: img_dhw_tank
     type: RGB565
     transparency: alpha_channel
     resize: 130x260
   - platform: file
-    file: ui/images/logo-512x512.png
+    file: images/logo-512x512.png
     id: openamber_logo
     type: RGB565
     transparency: alpha_channel
