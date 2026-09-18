@@ -93,7 +93,7 @@ font:
     bpp: 4
     extras:
       - file: fonts/materialdesignicons-webfont.ttf
-        glyphs
+        glyphs:
           - "\U000F0238"  # mdi-flame
           - "\U000F0717"  # mdi-snowflake
           - "\U000F0759"  # mdi-snowflake-variant
