@@ -1,17 +1,17 @@
 font:
-  - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/Inter_28pt-SemiBold.ttf"
-    #weight: 700
+  - file: fonts/Inter_28pt-SemiBold.ttf
+    #weigh
     id: font_header_title
     size: 32
     bpp: 4
   
-  - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/Inter_28pt-SemiBold.ttf"
-    #weight: 500
+  - file: fonts/Inter_28pt-SemiBold.ttf
+    #weigh
     id: font_mdi_24
     size: 24
     bpp: 4
     extras: 
-      - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/materialdesignicons-webfont.ttf"
+      - file: fonts/materialdesignicons-webfont.ttf
         glyphs:
           - "\U000F0238"  # mdi-flame
           - "\U000F0717"  # mdi-snowflake
@@ -55,45 +55,45 @@ font:
           - "\U000F0141"  # mdi-chevron-left (pagination)
           - "\U000F0142"  # mdi-chevron-right (pagination)
   
-  - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/Inter_28pt-SemiBold.ttf"
+  - file: fonts/Inter_28pt-SemiBold.ttf
     #weight: 500
     id: font_text_24
     size: 24
     bpp: 4
     extras:
-      - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/materialdesignicons-webfont.ttf"
-        glyphs:
+      - file: fonts/materialdesignicons-webfont.ttf
+        glyphs
           - "\U000F0140"  # mdi-chevron-down (dropdown arrow)
   
-  - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/Inter_28pt-SemiBold.ttf"
+  - file: fonts/Inter_28pt-SemiBold.ttf
     #weight: 500
     id: font_text_20
     size: 20
     bpp: 4
     extras:
-      - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/materialdesignicons-webfont.ttf"
+      - file: fonts/materialdesignicons-webfont.ttf
         glyphs:
           - "\U000F0140"  # mdi-chevron-down (dropdown arrow)
           - "\U000F0208"  # mdi-eye
           - "\U000F0209"  # mdi-eye-off
-  - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/Inter_28pt-SemiBold.ttf"
-    #weight: 500
+  - file: fonts/Inter_28pt-SemiBold.ttf
+    #weigh
     id: font_value_big
     size: 32
     bpp: 4
     extras: 
-      - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/materialdesignicons-webfont.ttf"
+      - file: fonts/materialdesignicons-webfont.ttf
         glyphs:
           - "\U000F01C2"  # mdi-delta
   
-  - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/Inter_28pt-SemiBold.ttf"
-    #weight: 500
+  - file: fonts/Inter_28pt-SemiBold.ttf
+    #weigh
     id: font_mdi_30
     size: 30
     bpp: 4
     extras:
-      - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/materialdesignicons-webfont.ttf"
-        glyphs:
+      - file: fonts/materialdesignicons-webfont.ttf
+        glyphs
           - "\U000F0238"  # mdi-flame
           - "\U000F0717"  # mdi-snowflake
           - "\U000F0759"  # mdi-snowflake-variant
@@ -112,13 +112,13 @@ font:
           - "\U000F092E"  # mdi-wifi-strength-off-outline
           - "\U000F07D0"  # mdi-home-assistant
   
-  - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/Inter_28pt-SemiBold.ttf"
-    #weight: 500
+  - file: fonts/Inter_28pt-SemiBold.ttf
+    #weigh
     id: font_mdi_36
     size: 36
     bpp: 4
     extras:
-      - file: "https://github.com/martkolt/openamber/raw/refs/heads/main/ui/fonts/materialdesignicons-webfont.ttf"
+      - file: fonts/materialdesignicons-webfont.ttf
         glyphs:
           - "\U000F0238"  # mdi-flame
           - "\U000F0717"  # mdi-snowflake
