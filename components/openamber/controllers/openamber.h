@@ -17,6 +17,8 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+#pragma once
+
 #include "constants.h"
 #include "dhw_controller.h"
 #include "heat_cool_controller.h"
